@@ -11,9 +11,7 @@ src: url("fuentes/PottaOne-Regular.ttf");
 }
 
 
-body{
-    height: 100%;
-}
+
 body{
     background-color: #EECF6D ;
     margin: 0;
@@ -71,10 +69,7 @@ span.brand2{
     
 }
 
-main.maximoEspacio{
-    min-height: 100vh ;
-    
-}
+
 
 main{
     margin: 10%;
@@ -84,6 +79,11 @@ main{
     background-color: #D5AC4E;
     box-shadow:10px 20px 100px black;
 }    
+
+div.maximoEspacio{
+    min-height: calc(100vh - 43px);
+    
+}
     
 h2{
     text-align: center;
@@ -179,6 +179,7 @@ details[open] summary {
     border-radius: 5px 5px 0 0;
 }
 
+
 details summary::-webkit-details-marker {
     display: none;
 }
@@ -223,6 +224,7 @@ footer.ropa{
 }
 
 footer.info{
+    min-height: 33px;
     background-color: #8B6220;
     display: flex;
     justify-self: flex-end;
@@ -231,7 +233,10 @@ footer.info{
     
     
 }   
-
+footer div{
+    margin: 0;
+    padding: 0;
+}
 
 div.derecha{
     position: absolute;
@@ -243,6 +248,7 @@ div.derecha{
 form{
     margin: 20px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 strong{
